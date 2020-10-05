@@ -8,7 +8,7 @@ while input_user == "cube" or "square":
 		print("Answer is:", result)
 		no_chances = no_chances + 1
 		print('You have played', no_chances, "time")
-		if no_chances == 1:
+		if no_chances == 10: #This can be avoidable. This is just a new way. This can be removed.
 			print('\nFree trial over')
 			quit(10)
 		input_user = input('\nEnter you cube or square: ')
@@ -19,7 +19,7 @@ while input_user == "cube" or "square":
 		print("Answer is:", result_2)
 		no_chances = no_chances + 1
 		print(f'You have played {no_chances}')
-		if no_chances == 1:
+		if no_chances == 10: #This can be avoidable. This is just a new way. This can be removed.
 			print('\nFree trial over')
 			quit(10)
 		input_user = input('\nEnter you cube or square: ')
